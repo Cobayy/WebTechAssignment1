@@ -1,12 +1,19 @@
 
-
 body {
     background-color: #9ccfd8;
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
 }
 
 a {
     text-decoration: none;
 }
+
+    a:visited {
+        text-decoration: none;
+        color: #faf4ed;
+    }
+
 
 
 
@@ -20,6 +27,7 @@ div.sidebar {
     left: 0;
     background-color: #31748f;
     overflow-x: hidden;
+    
   }
 
     #Main {
@@ -28,9 +36,20 @@ div.sidebar {
         font-family: 'Dongle', sans-serif;
         display: flex;
         align-items:flex-start;
+        color: #faf4ed;
     }
 
-    div * {
+    .sidebar :nth-child(2) {
+        background-color: #286983;
+        font-size: 30px;
+        font-family: 'Dongle', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar :nth-child(3) {
+        background-color: #56949f;
         font-size: 30px;
         font-family: 'Dongle', sans-serif;
         display: flex;
@@ -40,17 +59,24 @@ div.sidebar {
 
 
 
-.box {
+
+.boxmargin {
     margin-left: 35%;
     margin-right: 10%;
     display: flex;
     justify-content: space-between;
 }
 
-    .box > * {
+    .boxmargin .boxes {
+        display: flex;
+        width: 200px;
+        height: 100px;
         background-color: #f6c177;
-        padding: 30px;
+        color: #faf4ed;
+        align-items: center;
+        justify-content: space-evenly;
     }
+
 
 
 
@@ -62,13 +88,14 @@ div.sidebar {
     justify-content: flex-start;
 }
 
-    #contactpicture {
+    .contactpictures {
         margin-top: 10%;
         width: 10%;
         height: auto;   
         border-radius: 50%;
 
     }
+
 
 
 
@@ -80,10 +107,43 @@ div.sidebar {
 }
 
     .buttonformat :first-child {
-        background-color: #6e6a86;
+        background-color: #b4637a;
     }
 
     .buttonformat :nth-child(2) {
-        background-color: #555169;
+        background-color: #6e6a86;
     }
 
+
+
+
+.existingdetails {
+    margin-left: 35%;
+    margin-right: 10%;
+    line-height: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+    #contactdetailformat {
+        font-size: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-start;
+    }
+
+    #contactinfo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        justify-content: flex-start;
+    }
+
+        #editbuttons :first-child {
+            background-color: #b4637a;
+        }
+
+        #editbuttons :nth-child(2) {
+            background-color: #6e6a86;
+        }
