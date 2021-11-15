@@ -104,14 +104,17 @@ div.sidebar {
     margin-right: 10%;
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
     .buttonformat :first-child {
         background-color: #b4637a;
+        padding: 10px;
     }
 
     .buttonformat :nth-child(2) {
         background-color: #6e6a86;
+        padding: 10px;
     }
 
 
@@ -131,6 +134,7 @@ div.sidebar {
         flex-direction: row;
         align-items: flex-end;
         justify-content: flex-start;
+        gap: 30px;
     }
 
     #contactinfo {
@@ -142,8 +146,10 @@ div.sidebar {
 
         #editbuttons :first-child {
             background-color: #b4637a;
+            padding: 10px;
         }
 
         #editbuttons :nth-child(2) {
             background-color: #6e6a86;
+            padding: 10px;
         }
