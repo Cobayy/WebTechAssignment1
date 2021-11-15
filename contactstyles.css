@@ -64,7 +64,9 @@ div.sidebar {
     margin-left: 35%;
     margin-right: 10%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
     .boxmargin .boxes {
@@ -153,3 +155,55 @@ div.sidebar {
             background-color: #6e6a86;
             padding: 10px;
         }
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    div.sidebar {
+        list-style-type: none;
+        height: 26.5%;
+        width: 100%;
+        position: sticky;
+        padding: 0px;
+        background-color: #31748f;
+        overflow-x: hidden;     
+      }
+    
+        #Main {
+            display: flex;
+            justify-content: center;
+        }
+
+
+
+    .addform {
+        margin-left: 35%;
+        margin-right: 10%;
+        line-height:2rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+        .contactpictures {
+            width: 75px;
+        }
+
+    .boxmargin {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    
+        .boxmargin .boxes {
+            display: flex;
+            width: 200px;
+            height: 100px;
+            background-color: #f6c177;
+            color: #faf4ed;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+     }
