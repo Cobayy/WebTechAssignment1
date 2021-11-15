@@ -177,6 +177,7 @@ div.sidebar {
 
 
 
+
     .addform {
         margin-left: 35%;
         margin-right: 10%;
@@ -189,6 +190,9 @@ div.sidebar {
             width: 75px;
         }
 
+
+
+        
     .boxmargin {
         display: flex;
         flex-direction: column;
