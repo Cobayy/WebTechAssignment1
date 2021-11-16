@@ -1,5 +1,7 @@
 
 body {
+    padding: 0px;
+    margin: 0px;
     background-color: #9ccfd8;
     font-family: 'Dongle', sans-serif;
     font-size: 30px;
@@ -61,6 +63,7 @@ div.sidebar {
 
 
 .boxmargin {
+    margin-top: 5%;
     margin-left: 35%;
     margin-right: 10%;
     display: flex;
@@ -182,35 +185,42 @@ div.sidebar {
 
 
     .addform {
-        margin-left: 35%;
-        margin-right: 10%;
+        margin: 0px;
         line-height:2rem;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
     }
 
         .contactpictures {
             width: 75px;
         }
 
+        .buttonformat {
+            margin: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 10px;
+        }
 
 
         
     .boxmargin {
+        margin: 0px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        align-items: center;
         gap: 20px;
     }
-    
-        .boxmargin .boxes {
-            display: flex;
-            width: 200px;
-            height: 100px;
-            background-color: #f6c177;
-            color: #faf4ed;
-            align-items: center;
-            justify-content: space-evenly;
-        }
+
+
+
+    .existingdetails {
+        margin: 0px;
+        line-height: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
  }
